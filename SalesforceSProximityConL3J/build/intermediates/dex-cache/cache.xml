@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_3dacaac183b28b3a1976e1e5077579fe3f48579b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.22.0/7a0fe12b7d8189a821934d6f9d6586d00180e461/google-api-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a0fe12b7d8189a821934d6f9d6586d00180e461">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-android-1.22.0_2edef2cb846b3a55eb86a331a472900cc8d5f98a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.6.0_b402597886c44bcbc530e19867a6a0e7da476d5d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_c9e0af18f3a6e4fa39a6bcd728a4ce7524d439f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.1.3_c49b65e556ff3a0bcbc9b19b39651511dfca6b61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_04304918cb62e6a8e569df53d55b03b6c311bdd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.22.0/cc014d64ae11117e159d334c99d9c246d9b36f44/google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-jackson2-1.22.0_771bf52265f8708dbac2068f2af2eaac8c68a7f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="724623d7bdc16a3c32565482d8ca2987080e661e">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_29d1fbe68063fae3eba435e945545832a031c0f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev236-1.22.0/18e6659ba44bf547f49cc37382fd7b2c8488e069/google-api-services-calendar-v3-rev236-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18e6659ba44bf547f49cc37382fd7b2c8488e069">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-services-calendar-v3-rev236-1.22.0_900c61a47f3831bb692ee0e6b395feb6548753ce/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.2.0_17c44b17fca2a0d243a353a8bd619581ecd9b43d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_c8edcfe26a63994ee155f0804b6ca63f62652a3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.2.0_beced8da8dd119361e7a9a2674578b7d45172192/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.2.0_f0e9348a31f88d3f6821ee68c6fea576cdc9bfc5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.2.0_b75bb8ccbfbf195cc8916586749e07ab27d759c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.6.0/81887458b69ddc32722df7e4c35235fd74e6a8ba/logging-interceptor-3.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="81887458b69ddc32722df7e4c35235fd74e6a8ba">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.6.0_ace06fa855c97c3bddef6ce692aeacab994e62bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_849ebdc866e4d0000cd32ce0441c210ea5b07cf7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-jdk5-17.0_086061e45c94b2e664d7ae7cfb14f06fc10acd30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_eefe42bdbcd468b473f03323dfc9218182f5a38b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/pub.devrel/easypermissions/0.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c62423966e97071131e9c16d89ffaa003fe6a5d1">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/pub.devrel-easypermissions-0.2.1_0c1f37a7bb023a1afad4f67adf9b354d4e0d3888/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_5755747e25eb7d7c96f87cabc1790ae3f8ee4964/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_fd17d58cb62affdc10951e0f7e44034eb042783e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_2435b3897784e4ab09ab56adb790e279061e5b68/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_de1d53be881eaf8aa7cbd6cfd71863261117d955/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_52c49b3de9fff4757abdcdc66ec6d169e0d45935/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.2.0_d0324e66d0c9d900e8cf4871da800c44caeb9af2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_ad0520ea03358c69ce0b8b8727ab2ff9c19b3b00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.22.0/1d63f369ac78e4838a3197147012026e791008cb/google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-1.22.0_fee556ad19e928212d41222821b016f190900f1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.11.0_350d39f6b87aa954e13afdc3c239c0ba38f99d3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_7623a39f1235a583aee67d12eedd9d5e297fc241/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_74863baab937d2f8c7a87224e7b9473e9161cd02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.22.0/244350c0c845c583717ade13f5666a452fd0cfa/google-api-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-1.22.0_592691a27cb7cf22df23133ad3a3973a02f14ba9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.2.0_c32fc8a0f0f33f1cb39804bab95825b7e795e7cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.estimote/sdk/0.10.8/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="640af651fe94032b8f34112aabd351df29d3e2df">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.estimote-sdk-0.10.8_6927a4da8ac3a9af4f9a81e1535a66a235e712a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.22.0/6d1e1a76a16a244ab2f41775791be1dd0ec2878a/google-http-client-android-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d1e1a76a16a244ab2f41775791be1dd0ec2878a">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-android-1.22.0_c3e73f20c13ea16e2c656bc1697fd11ffacdfb41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_0c6f52d7e1fd54856057843a40e2305aafe442ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8967ed6e14d40ebb39a626e593eda692b5a2d6f1">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5462d57d2491f65dbcf75c5eb6b1b3e6093ce3e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_f87f485cb92390cf1d0c87ebdf284b614d00855a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_22bd874a72ae88dfb59bec9d6ba03727a3d78ce9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_60b6acce28d504a65fbae9ecc45f70d4d4754e12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/d441fc58329c4a4c067acec04ac361627f66ecc8/google-http-client-1.22.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-1.22.0_0030d9041c095abc68d647e60dbaca7973d96214/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_64a897473300f73f3eb82746e9eb074ef5be268d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.2.0_0e211dd5fd095992624f8e32959c19240471be29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_d9be2bb15c34a4c0518ac2b5aa980427bb548b67/classes.dex" />
+    </item>
+
+</items>

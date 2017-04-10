@@ -1,0 +1,98 @@
+Visits:
+  x-swagger-router-controller: visit
+  get:
+    tags: [ visit ]
+    description: Returns an array of visit objects.
+    operationId: getVisits
+    parameters:
+      - name: booth
+        in: query
+        description: "Filter by booths"
+        required: false
+        type: string
+      - name: event
+        in: query
+        description: "Filter by events"
+        required: false
+        type: string
+    responses:
+      "200":
+        description: Success
+        schema:
+          type: array
+          # a pointer to a definition
+          items:
+            $ref: "#/definitions/Visit"
+  post:
+    tags: [ visit ]
+    description: Creates and returns new Visit object.
+    operationId: postVisit
+    parameters:
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Visit"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Visit"
+VisitsById:
+  x-swagger-router-controller: visit
+  get:
+    tags: [ visit ]
+    description: Returns a Visit based on Id.
+    operationId: getVisitById
+    parameters:
+      - name: visitId
+        in: path
+        type: string
+        description: "Visit Id"
+        required: true
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Visit"
+      "404":
+        description: Visit not found
+  patch:
+    tags: [ visit ]
+    description: Updates selected Visits.
+    operationId: patchVisitById
+    parameters:
+      - name: visitId
+        in: path
+        type: string
+        description: "Visit Id"
+        required: true
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Visit"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Visit"
+      "404":
+        description: Visit not found
+  delete:
+    tags: [ visit ]
+    description: Deletes a Visit based on Id.
+    operationId: deleteVisitById
+    parameters:
+      - name: visitId
+        in: path
+        type: string
+        description: "Visit Id"
+        required: true
+    responses:
+      "200":
+        description: Success
+      "404":
+        description: Visit not found

@@ -1,0 +1,80 @@
+@import 'main';
+
+.navbar-mobile-tabs {
+  display: none;
+}
+.navbar .navbar-mobile-tabs {
+  margin-right: 0rem;
+}
+
+@media screen and (max-width: 1260px) {
+  .navbar-mobile-tabs {
+    display: block;
+  }
+  .navbar, .navbar-header {
+    background: $navbar-bg-color-dark;
+  }
+  .slds-m-left--x-large{
+    margin-left: 0rem;
+  }
+  .navbar-mobile-tabs a{
+    padding-top: 0rem;
+    color: $navbar-font-color;
+    text-align: left;
+    padding-left: 1.875rem;
+  }
+  .navbar .navbar-tabs a:hover {
+    background: $navbar-bg-color-dark;
+  }
+  .menu {
+    width: 100%;
+    line-height: 3.75rem;
+    position: relative;
+    z-index: 1;
+  }
+  .menu-text {
+    width: 100%;
+    background: $navbar-bg-color-dark;
+  }
+  .hamburger {
+    cursor: pointer;
+    padding-top: 0.8rem;
+    position: relative;
+    display: inline-block;
+    width: 1.25rem;
+    height: 0.8rem;
+    margin-right: 1rem;
+    margin-top: 1.2rem;
+    border-top: 0.2rem solid #fff;
+    border-bottom: 0.2rem solid #fff;
+  }
+  .hamburger:before {
+    content: "";
+    position: absolute;
+    top: 0.3rem;
+    left: 0rem;
+    width: 100%;
+    border-top: 0.2rem solid #fff;
+  }
+  .close {
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    margin-top:1rem;
+  }
+  .close:before,
+  .close:after {
+    position: absolute;
+    right: 1.5rem;
+    content: "";
+    height: 1.5rem;
+    width: 0.2rem;
+    background-color: #fff;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+}

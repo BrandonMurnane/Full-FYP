@@ -1,0 +1,9 @@
+  UserGroup:
+    type: object
+    description:  Event like talk
+    properties:
+      key:
+        type: string
+      description:
+        type: [string,"null"]
+

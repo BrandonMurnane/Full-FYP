@@ -1,0 +1,18 @@
+.tableHeader {
+  position: relative;
+  padding: 2rem 2rem 2rem;
+}
+.newButton {
+  line-height: 2.25rem;
+  position: absolute;
+  right: 3rem;
+  top: 1.8rem;
+}
+@media screen and (max-width: 768px) {
+  .tableHeader h1 {
+    display: none;
+  }
+  .tableHeader {
+    padding: 5.5rem 3rem 3rem;
+  }
+}

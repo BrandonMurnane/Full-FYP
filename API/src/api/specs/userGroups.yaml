@@ -1,0 +1,87 @@
+UserGroups:
+  x-swagger-router-controller: userGroups
+  get:
+    tags: [ userGroups ]
+    description: Returns an array of userGroup objects.
+    operationId: getUserGroups
+    responses:
+      "200":
+        description: Success
+        schema:
+          type: array
+          # a pointer to a definition
+          items:
+            $ref: "#/definitions/UserGroup"
+  post:
+    tags: [ userGroups ]
+    description: Creates and returns new UserGroup object.
+    operationId: postUserGroup
+    parameters:
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/UserGroup"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/UserGroup"
+UserGroupsByKey:
+  x-swagger-router-controller: userGroups
+  get:
+    tags: [ userGroups ]
+    description: Returns a UserGroup based on Key.
+    operationId: getUserGroupByKey
+    parameters:
+      - name: userGroupKey
+        in: path
+        type: string
+        description: "UserGroup Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/UserGroup"
+      "404":
+        description: UserGroup not found
+  patch:
+    tags: [ userGroups ]
+    description: Updates selected UserGroups.
+    operationId: patchUserGroupByKey
+    parameters:
+      - name: userGroupKey
+        in: path
+        type: string
+        description: "UserGroup Key"
+        required: true
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/UserGroup"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/UserGroup"
+      "404":
+        description: UserGroup not found
+  delete:
+    tags: [ userGroups ]
+    description: Deletes a UserGroup based on Key.
+    operationId: deleteUserGroupByKey
+    parameters:
+      - name: userGroupKey
+        in: path
+        type: string
+        description: "UserGroup Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+      "404":
+        description: UserGroup not found

@@ -1,0 +1,20 @@
+@import 'main';
+
+.checkbox-group-boxes {
+  max-height: 18rem;
+  overflow-y: auto;
+}
+
+.search{
+    background-color: white;
+    color: $search-bar-color;
+    border: 0.0625rem solid $modal-timeline-color;
+    border-radius: 0.25rem;
+    width: 100%;
+    -webkit-transition: border 0.1s linear,background-color 0.1s linear;
+    transition: border 0.1s linear,background-color 0.1s linear;
+    display: inline-block;
+    padding: 0 1rem 0 0.75rem;
+    line-height: 2.125rem;
+    min-height: calc(2.125rem + 0.125rem);
+}

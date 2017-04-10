@@ -1,0 +1,66 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: Final Year Project API
+# during dev, should point to your local machine
+# basePath prefixes all resource paths
+basePath: /v1
+#
+schemes:
+  # tip: remove http to make production-grade
+  - http
+  - https
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /booths:
+    $ref: "./booths.yaml#/Booths"
+  /Booth/{boothKey}:
+    $ref: "./booths.yaml#/BoothsByKey"
+  /events:
+    $ref: "./events.yaml#/Events"
+  /Event/{eventKey}:
+    $ref: "./events.yaml#/EventsByKey"
+  /categories:
+    $ref: "./categories.yaml#/Categories"
+  /categories/{categoryKey}:
+    $ref: "./categories.yaml#/CategoriesByKey"
+  /userGroups:
+    $ref: "./userGroups.yaml#/UserGroups"
+  /userGroups/{userGroupKey}:
+    $ref: "./userGroups.yaml#/UserGroupsByKey"
+  /visits:
+    $ref: "./visits.yaml#/Visits"
+  /visits/{visitId}:
+    $ref: "./visits.yaml#/VisitsById"
+  /users:
+    $ref: "./users.yaml#/Users"
+  /users/{username}:
+    $ref: "./users.yaml#/UsersByUsername"
+  /swagger:
+    x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+  Booth:
+    $ref: "./definitions/booth.yaml#/Booth"
+  Event:
+    $ref: "./definitions/event.yaml#/Event"
+  Category:
+    $ref: "./definitions/category.yaml#/Category"
+  UserGroup:
+    $ref: "./definitions/userGroup.yaml#/UserGroup"
+  Visit:
+    $ref: "./definitions/visit.yaml#/Visit"
+  User:
+    $ref: "./definitions/user.yaml#/User"
+  NewUser:
+    $ref: "./definitions/user.yaml#/NewUser"
+  NotFoundError:
+    type: object
+    properties:
+      message:
+        type: string

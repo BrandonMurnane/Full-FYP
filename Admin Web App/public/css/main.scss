@@ -1,0 +1,36 @@
+.slds-spinner--large {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+/* Application Defaults */
+$color-text-default: #16325C;
+$color-text-light: rgba(22,50,92, 0.5);
+$color-border-info: #54698D;
+$color-background: #F4F6F9;
+$color-border: #D8DDE6;
+
+/* Navbar background color */
+$navbar-bg-color-dark: #0070D2;
+$navbar-bg-color-light: #0C8EFF;
+/* Navbar tabs color */
+$navbar-tab-color-hover: rgba(0, 57, 107, 0.2);
+$navbar-tab-color-active: rgba(0, 57, 107, 0.7);
+/* Navbar font color */
+$navbar-font-color: #FFFFFF;
+/* Button colors */
+$primary-button-bg-color: #0070D2;
+/* Wizard bullets */
+$wizard-bullet-active-fill: #0070D2;
+$wizard-bullet-not-active: #F4F6F9;
+/* Table */
+$table-selected-row-border: #95B3FC;
+$table-selected-row-bg: #ECF6FB;
+
+
+/*Modal*/
+$modal-border:#E2E5EA;
+$modal-title-font:#54698D;
+$modal-title-background-color: $color-background;
+$modal-timeline-color:#D8DDE6;
+

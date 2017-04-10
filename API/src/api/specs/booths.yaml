@@ -1,0 +1,93 @@
+Booths:
+  x-swagger-router-controller: booth
+  get:
+    tags: [ booth ]
+    description: Returns an array of booth objects.
+    operationId: getBooths
+    parameters:
+      - name: category
+        in: query
+        description: "Filter by Categories"
+        required: false
+        type: string
+    responses:
+      "200":
+        description: Success
+        schema:
+          type: array
+          # a pointer to a definition
+          items:
+            $ref: "#/definitions/Booth"
+  post:
+    tags: [ booth ]
+    description: Creates and returns new Booth object.
+    operationId: postBooth
+    parameters:
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Booth"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Booth"
+BoothsByKey:
+  x-swagger-router-controller: booth
+  get:
+    tags: [ booth ]
+    description: Returns a Booth based on Key.
+    operationId: getBoothByKey
+    parameters:
+      - name: boothKey
+        in: path
+        type: string
+        description: "Booth Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Booth"
+      "404":
+        description: Booth not found
+  patch:
+    tags: [ booth ]
+    description: Updates selected Booths.
+    operationId: patchBoothByKey
+    parameters:
+      - name: boothKey
+        in: path
+        type: string
+        description: "Booth Key"
+        required: true
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Booth"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Booth"
+      "404":
+        description: Booth not found
+  delete:
+    tags: [ booth ]
+    description: Deletes a Booth based on Key.
+    operationId: deleteBoothByKey
+    parameters:
+      - name: boothKey
+        in: path
+        type: string
+        description: "Booth Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+      "404":
+        description: Booth not found

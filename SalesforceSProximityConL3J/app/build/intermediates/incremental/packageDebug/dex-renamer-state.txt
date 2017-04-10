@@ -1,0 +1,7 @@
+#Mon Apr 10 18:31:19 IST 2017
+base.0=/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5462d57d2491f65dbcf75c5eb6b1b3e6093ce3e2
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_29d1fbe68063fae3eba435e945545832a031c0f6/classes.dex
+base.1=/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_29d1fbe68063fae3eba435e945545832a031c0f6
+file.0=/Users/bmurnane/Downloads/SalesforceSProximityConL3J/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5462d57d2491f65dbcf75c5eb6b1b3e6093ce3e2/classes.dex

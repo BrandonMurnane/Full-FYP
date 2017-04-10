@@ -1,0 +1,93 @@
+@import 'main';
+
+.navbar {
+  background: $navbar-bg-color-dark; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, $navbar-bg-color-dark, $navbar-bg-color-light 80%);
+  border-radius: 0;
+  border: none;
+  height: 3.75rem;
+}
+.navbar-header {
+  position: relative;
+  min-width: 17.75rem;
+  max-width: 17.75rem;
+  height: 3.75rem;
+  float: left;
+  font-weight: 300;
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    position: absolute;
+    top: 0.75rem;
+    color: $navbar-font-color;
+    font-size: 1.5rem;
+    display: inline;
+    margin-right: 3rem;
+    min-width: 3rem;
+    margin-left: 1.875rem;
+  }
+}
+.navbar-tabs {
+  li a {
+    font-weight: 300;
+    display: inline-block;
+    min-width: 11.875rem;
+    height: 3.75rem;
+    text-align: center;
+    color: $navbar-font-color;
+    font-size: 1rem;
+    padding-top: 1.125rem;
+    text-decoration: none;
+  }
+  a {
+    font-weight: 300;
+    display: inline-block;
+    min-width: 11.875rem;
+    height: 3.75rem;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  a:hover {
+    background-color: $navbar-tab-color-hover;
+  }
+  a.active {
+   background-color: $navbar-tab-color-active;
+  }
+}
+
+.subTab li{
+  background-color: $navbar-bg-color-light;
+}
+.nav li {
+  position: relative;
+  cursor: pointer;
+}
+.nav > li {
+  float: left;
+}
+.navbar .navbar-tabs {
+    text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar {
+    background-image: linear-gradient(to right, $navbar-bg-color-dark, $navbar-bg-color-light 100%);
+  }
+  .navbar-tabs a {
+    min-width: 10rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-tabs a {
+    min-width: 33%;
+  }
+}
+@media screen and (max-width: 1260px) {
+  .navbar {
+    background: $navbar-bg-color-dark;
+  }
+  .nav-tabs{
+    display: none;
+  }
+}

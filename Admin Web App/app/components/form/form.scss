@@ -1,0 +1,40 @@
+.form-width{
+  max-width: 30rem;
+}
+
+.previewModal{
+  border:solid 1px black ;
+  border-radius: 0.25rem;
+  position: fixed;
+  top: 6rem;
+  right: 3rem;
+  height: auto;
+  width: 40%;
+  max-width: 40rem;
+  min-width: 20rem;
+  min-height: 20rem;
+  max-height: 40rem;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow: auto;
+  z-index: 1;
+
+  @media only screen and (max-width: 56.25rem) {
+  	position: relative;
+  	float: left;
+  	display: inline-block;
+      margin-right: 0.5rem;
+      width: 80%
+    }
+}
+
+.previewModalHeader{
+	text-align: center;
+}
+
+.form {
+  &--textarea {
+    white-space: pre-wrap;
+  }
+}

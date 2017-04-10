@@ -1,0 +1,13 @@
+@import 'main';
+
+.detailedTr.hidden {
+  display: none;
+}
+.detailedTr.visible {
+  display: table-row;
+}
+.tableContainer {
+  .table-detailed-row-selected {
+    border-bottom: 1px solid $table-selected-row-border;
+  }
+}

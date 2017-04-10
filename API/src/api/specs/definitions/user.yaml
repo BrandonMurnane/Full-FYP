@@ -1,0 +1,54 @@
+NewUser:
+  type: object
+  description: An end user who interacts with the system.
+  required:
+    - email
+    - username
+    - password
+  properties:
+    email:
+      type: string
+      maxLength: 254
+      description: The user's email address
+    username:
+      type: string
+      maxLength: 256
+      description: Username
+    name:
+      type: string
+      maxLength: 256
+      description: User's first and last name
+    password:
+      type: string
+      readOnly: true
+    UserGroupKey:
+      type: string
+    sso:
+      type: boolean
+      default: false
+      description: Determines if the user logins via SSO
+User:
+  type: object
+  description: An end user who interacts with the system.
+  properties:
+    id:
+      type: string
+      readOnly: true
+    email:
+      type: string
+      maxLength: 254
+      description: The user's email address.
+    username:
+      type: string
+      readOnly: true
+      maxLength: 256
+      description: Username
+    name:
+      type: string
+      maxLength: 256
+      description: User's first and last name
+    password:
+      type: string
+      readOnly: true
+    UserGroupKey:
+      type: string

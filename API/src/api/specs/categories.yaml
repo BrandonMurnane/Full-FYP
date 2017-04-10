@@ -1,0 +1,87 @@
+Categories:
+  x-swagger-router-controller: category
+  get:
+    tags: [ category ]
+    description: Returns an array of category objects.
+    operationId: getCategories
+    responses:
+      "200":
+        description: Success
+        schema:
+          type: array
+          # a pointer to a definition
+          items:
+            $ref: "#/definitions/Category"
+  post:
+    tags: [ category ]
+    description: Creates and returns new Category object.
+    operationId: postCategory
+    parameters:
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Category"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Category"
+CategoriesByKey:
+  x-swagger-router-controller: category
+  get:
+    tags: [ category ]
+    description: Returns a Category based on Key.
+    operationId: getCategoryByKey
+    parameters:
+      - name: categoryKey
+        in: path
+        type: string
+        description: "Category Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Category"
+      "404":
+        description: Category not found
+  patch:
+    tags: [ category ]
+    description: Updates selected Categories.
+    operationId: patchCategoryByKey
+    parameters:
+      - name: categoryKey
+        in: path
+        type: string
+        description: "Category Key"
+        required: true
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Category"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Category"
+      "404":
+        description: Category not found
+  delete:
+    tags: [ category ]
+    description: Deletes a Category based on Key.
+    operationId: deleteCategoryByKey
+    parameters:
+      - name: categoryKey
+        in: path
+        type: string
+        description: "Category Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+      "404":
+        description: Category not found

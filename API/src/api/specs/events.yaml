@@ -1,0 +1,93 @@
+Events:
+  x-swagger-router-controller: events
+  get:
+    tags: [ event ]
+    description: Returns an array of event objects.
+    operationId: getEvents
+    parameters:
+      - name: category
+        in: query
+        description: "Filter by Categories"
+        required: false
+        type: string
+    responses:
+      "200":
+        description: Success
+        schema:
+          type: array
+          # a pointer to a definition
+          items:
+            $ref: "#/definitions/Event"
+  post:
+    tags: [ event ]
+    description: Creates and returns new Event object.
+    operationId: postEvent
+    parameters:
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Event"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Event"
+EventsByKey:
+  x-swagger-router-controller: events
+  get:
+    tags: [ event ]
+    description: Returns a Event based on Key.
+    operationId: getEventByKey
+    parameters:
+      - name: eventKey
+        in: path
+        type: string
+        description: "Event Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Event"
+      "404":
+        description: Event not found
+  patch:
+    tags: [ event ]
+    description: Updates selected Events.
+    operationId: patchEventByKey
+    parameters:
+      - name: eventKey
+        in: path
+        type: string
+        description: "Event Key"
+        required: true
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/Event"
+    responses:
+      "200":
+        description: Success
+        schema:
+          $ref: "#/definitions/Event"
+      "404":
+        description: Event not found
+  delete:
+    tags: [ event ]
+    description: Deletes a Event based on Key.
+    operationId: deleteEventByKey
+    parameters:
+      - name: eventKey
+        in: path
+        type: string
+        description: "Event Key"
+        required: true
+    responses:
+      "200":
+        description: Success
+      "404":
+        description: Event not found

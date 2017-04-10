@@ -1,0 +1,10 @@
+  Category:
+    type: object
+    description:  Booth attending event
+    properties:
+      key:
+        type: string
+      description:
+        type: [string,"null"]
+      RelatedCategory:
+        type: [string,"null"]

@@ -1,0 +1,59 @@
+@import 'main';
+
+.tableContainer {
+  tbody {
+    tr {
+      td {
+        position: relative;
+        span {
+          padding-right: 1rem;
+        }
+      }
+      td.detailedRow {
+        div {
+          div {
+            float: left;
+            padding-bottom: 1.5rem;
+            padding-top: 1.5rem;
+            padding-left: 3.5rem;
+            padding-right: 3.5rem;
+            h1 {
+              color: $navbar-bg-color-dark;
+            }
+            span {
+              padding-right: 0;
+            }
+          }
+          div.small {
+            width: 25%;
+          }
+          div.large{
+          width: 50%;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .tableContainer {
+    tbody {
+      tr {
+        td.detailedRow {
+          div {
+            div {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.editRow {
+  fill: $navbar-bg-color-dark;
+  top: 2.5rem;
+  right: 2.5em;
+  height: 1.25rem;
+  width: 1.25rem;
+}

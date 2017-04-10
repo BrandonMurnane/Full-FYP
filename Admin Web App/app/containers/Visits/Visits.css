@@ -1,0 +1,9 @@
+.extraData{
+	margin-top: 15%;
+}
+/* this is a media query to check screen size and change css based on that*/
+@media only screen and (max-width:760px) {
+	.extraData{
+      margin-left: 10rem;
+     }
+}

@@ -1,0 +1,22 @@
+@import 'main';
+
+.expand-table-icon {
+  width: 0.75rem;
+  height: 0.75rem;
+  fill: $navbar-tab-color-active;
+}
+
+.tableContainer {
+  .table-row-selected {
+    background-color: $table-selected-row-bg;
+    border-top: 1px solid $table-selected-row-border;
+  }
+}
+.table{
+	&--ongoing{
+	  color: $instance-major-bg-color;
+	}
+	&--resolved{
+	  color: $modal-status-resolved;
+	}
+}

@@ -1,0 +1,14 @@
+  Visit:
+    type: object
+    description: a  users visit to a Booth/event
+    properties:
+      id:
+        type: integer
+      Time:
+        type: string
+      UserGroupKey:
+        type: string
+      booth:
+        type: string
+      event:
+        type: string

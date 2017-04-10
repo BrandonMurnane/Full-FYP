@@ -1,0 +1,60 @@
+@import 'main';
+
+.slds-modal {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+}
+
+.modal-section-title{
+  font-size: .75rem;
+  line-height: 1.25;
+  color: $color-border-info;
+  text-transform: uppercase;
+  letter-spacing: .0625rem;
+
+  padding: 1rem;
+
+  border-bottom: 0.0625rem solid $modal-border;
+  border-top: 0.0625rem solid $modal-border;
+  background-color: $modal-title-background-color;
+  align-items: baseline;
+
+  &--top {
+    border-top: 0;
+  }
+}
+
+.divider{
+  border-bottom: 0.125rem solid $modal-border;
+}
+
+.slds-icon-standard-dashboard.slds-p-around--xx-small.slds-timeline__icon.history-icon-border{
+  border: 0.125rem solid $modal-title-background-color;
+}
+
+
+
+.slds-modal__content.modal{
+  padding: 0rem ;
+}
+
+.modal-sub-text {
+  font-size: .6875rem;
+  font-weight: 400;
+  color: $color-text-light;
+  text-transform: uppercase;
+  letter-spacing: .0625rem;
+  svg {
+    fill: $color-text-light;
+  }
+  span {
+    vertical-align: middle;
+  }
+}
+
+.modal-light-text {
+  color: $color-text-light;
+  text-transform: uppercase;
+}

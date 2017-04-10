@@ -1,0 +1,14 @@
+  Event:
+    type: object
+    description:  Event like talk
+    properties:
+      key:
+        type: string
+      description:
+        type: [string,"null"]
+      owner:
+        type: [string,"null"]
+      categoryKeys:
+        type: array
+        items:
+          type: string

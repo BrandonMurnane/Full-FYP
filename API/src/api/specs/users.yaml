@@ -1,0 +1,120 @@
+Users:
+  x-swagger-router-controller: user
+  get:
+      tags: [ user ]
+      description: Find a user or users.
+      operationId: getUsers
+      responses:
+        '200':
+          description: Success, a list of users.
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/User"
+  post:
+    summary: Create a new user
+    tags: [ user ]
+    description: Create a new user.
+    operationId: postUser
+    parameters:
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/User"
+    responses:
+      '200':
+        description: Success, returns created user.
+        schema:
+          $ref: "#/definitions/User"
+UsersByUsername:
+  x-swagger-router-controller: user
+  delete:
+    summary: Delete the specified user
+    tags: [ user ]
+    description: Delete the specified user.
+    operationId: deleteUserByUsername
+    parameters:
+      - name: username
+        in: path
+        description: The username of the user to delete.
+        required: true
+        type: string
+    responses:
+      '200':
+        description: Success, returns deleted user.
+        schema:
+          $ref: "#/definitions/User"
+      "404":
+        description: User not found
+        schema:
+          $ref: '#/definitions/NotFoundError'
+  get:
+    summary: Retrieve the specified user
+    tags: [ user ]
+    description: Retrieve the specified user by its Username.
+    operationId: getUserByUsername
+    parameters:
+      - name: username
+        in: path
+        description: The username of the user to retrieve.
+        required: true
+        type: string
+      - name: password
+        type: string
+        in: query
+        description: password
+        required: true
+    responses:
+      '200':
+        description: Success, returns specified user.
+        schema:
+          $ref: "#/definitions/User"
+      "404":
+        description: User not found
+        schema:
+          $ref: '#/definitions/NotFoundError'
+  patch:
+    summary: Update the specified user
+    tags: [ user ]
+    description: Update the specified user.
+    operationId: patchUserByUsername
+    parameters:
+      - name: username
+        in: path
+        description: The username of the user to update.
+        required: true
+        type: string
+      - name: body
+        in: body
+        description: "Request body"
+        required: true
+        schema:
+          $ref: "#/definitions/User"
+    responses:
+      '200':
+        description: Success, returns updated user.
+        schema:
+          $ref: "#/definitions/User"
+      "404":
+        description: User not found
+        schema:
+          $ref: '#/definitions/NotFoundError'
+ConfirmUser:
+  x-swagger-router-controller: user
+  get:
+    tags: [ user ]
+    description: Confirms a user
+    operationId: confirmUser
+    parameters:
+      - name: token
+        in: query
+        description: Confirmation token provided at user creation
+        required: true
+        type: string
+    responses:
+      '200':
+        description: Success, a users.
+        schema:
+          $ref: "#/definitions/User"
